@@ -5,8 +5,8 @@
             "destination": "https://wondrlink-back.vercel.app/api/:match*"
         },
         {
-            "source": "/:match*",
-            "destination": "https://wondrlink.vercel.app/:match*"
+            "source": "/(.*)",
+            "destination": "https://wondrlink.vercel.app/$1"
         }
     ]
 }
