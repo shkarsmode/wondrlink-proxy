@@ -1,18 +1,4 @@
 {
-    "headers": [
-        {
-            "source": "/(.*)",
-            "headers": [
-                {
-                    "key": "X-Robots-Tag",
-                    "value": "noindex, nofollow",
-                    "condition": {
-                        "hostname": "wondrlink.vercel.app"
-                    }
-                }
-            ]
-        }
-    ],
     "rewrites": [
         {
             "source": "/api/:match*",
