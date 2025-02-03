@@ -1,7 +1,4 @@
 {
-    "middleware": [
-        "./middleware.js"
-    ],
     "headers": [
         {
             "source": "/(.*)",
