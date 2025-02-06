@@ -1,8 +1,8 @@
 {
     "redirects": [
         {
-            "source": "https://wondrlink.vercel.app",
-            "destination": "https://wondrlink.com",
+            "source": "/(.*)",
+            "destination": "https://wondrlink.com/$1",
             "permanent": true
         }
     ],
