@@ -1,4 +1,11 @@
 {
+    "redirects": [
+        {
+            "source": "/(.*)",
+            "destination": "https://wondrlink.com/$1",
+            "permanent": true
+        }
+    ],
     "headers": [
         {
             "source": "/(.*)",
